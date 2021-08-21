@@ -38,7 +38,7 @@
 구동화면
 -------------
 *주소록 메인화면*
-![Alt text](/path/to/img.PNG "주소소록")
+![주소로록](https://user-images.githubusercontent.com/63482037/130322399-15805952-bb8b-41d5-abf2-3b5104232332.PNG)
 
 *주소록 찾기화면*
 ![Alt text](/path/to/img.PNG "찾기 창")
