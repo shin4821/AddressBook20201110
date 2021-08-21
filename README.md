@@ -37,12 +37,14 @@
 
 구동화면
 -------------
-*주소록 메인화면*
+*주소록 메인화면
+
 ![주소로록](https://user-images.githubusercontent.com/63482037/130322399-15805952-bb8b-41d5-abf2-3b5104232332.PNG)
 
-*주소록 찾기화면*
-![Alt text](/path/to/img.PNG "찾기 창")
 
+*주소록 찾기화면
+
+![찾기 창](https://user-images.githubusercontent.com/63482037/130322463-fba8c1b4-7943-4043-8c6d-87f5b43b5f3a.PNG)
 
 
 
