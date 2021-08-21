@@ -1,0 +1,144 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ADDRESSBOOKFORM DIALOGEX 0, 0, 310, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "주소록"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,79,22,84,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADDRESS,78,37,84,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TELEPHONENUMBER,79,53,84,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EMAILADDRESS,78,69,84,14,ES_AUTOHSCROLL
+    GROUPBOX        "개인",IDC_STATIC_PERSONAL,18,14,218,73
+    LTEXT           "성명",IDC_STATIC_NAME,31,26,38,8
+    CONTROL         "",IDC_LIST_PERSONALS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,17,92,219,71
+    PUSHBUTTON      "기재하기",IDC_BUTTON_RECORD,245,15,50,14
+    LTEXT           "주소",IDC_STATIC_ADDRESS,31,42,32,8
+    LTEXT           "전화번호",IDC_STATIC_TELEPHONENUMBER,29,56,46,8
+    LTEXT           "이메일주소",IDC_STATIC_EMAILADDRESS,30,71,46,8
+    PUSHBUTTON      "찾기",IDC_BUTTON_FIND,245,30,50,14
+    PUSHBUTTON      "고치기",IDC_BUTTON_CORRECT,245,45,50,14
+    PUSHBUTTON      "지우기",IDC_BUTTON_ERASE,245,60,50,14
+    PUSHBUTTON      "정리하기",IDC_BUTTON_ARRANGE,245,75,50,14
+END
+
+IDD_FINDINGFORM DIALOGEX 0, 0, 310, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "찾기"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "조건",IDC_STATIC_CONDITION,15,15,228,28
+    LTEXT           "성명",IDC_STATIC_NAME,69,26,36,8
+    EDITTEXT        IDC_EDIT_NAME,104,24,78,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_LIST_PERSONALS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,49,228,113
+    PUSHBUTTON      "찾기",IDC_BUTTON_FIND,246,20,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ADDRESSBOOKFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_FINDINGFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 15
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ADDRESSBOOKFORM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FINDINGFORM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
